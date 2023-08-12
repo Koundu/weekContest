@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet"href="./styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <!--IMDB Logo-->
+    <p>IMDB MOVIE APP</p>
+    <!--End of IMDB Logo-->
+    <input id="api_key" placeholder="API_KEY" type="text">
+    <!--Search Container-->
+    <div class="search-container">
+        <div class="search-element">
+            <input id="search" placeholder="Search" type="text" onkeyup="getResults(search)">
+
+            <div class="search-list" id="search-list">
+                <!-- List Item -->
+                <div class="search-list-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg"/>
+                        <div id="det">
+                            <p id="num">1</p>
+                            <p id="title">Guardians of Galaxy Vol.2</p>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--End of Search Container-->
+    <script src="./movie.js"></script>
+</body>
+</html>
